@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/news/news",
+    "pages/ads/ads",
+    "pages/Activity/Activity",
+    "pages/Activity/Activity1",
+    "pages/Service/Service",
+    "pages/Service/Service1",
+    "pages/Broadcast/Broadcast",
+    "pages/Content/Content",
+    "pages/Intent/Intent",
+    "pages/ListView/ListView",
+    "pages/ViewPager/ViewPager",
+    "pages/Adapter/Adapter"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#dddddd",
+    "selectedColor":"#ff8000",
+    "borderStyle":"black",
+    "backgroundColor":"#ffffff",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "iconPath":"images/like_reply_normal.png",
+        "selectedIconPath":"images/like_reply_check.png",
+        "text":"复习"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/like_reply_normal.png",
+        "selectedIconPath": "images/like_reply_check.png",
+        "text": "我"
+      }
+    ]
+  }
+}
+  

@@ -1,0 +1,58 @@
+<view class='hor'>
+  <view class="userinfo ">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <image  class="vip-icon" src="../../images/vip.png" ></image>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+      </view> 
+    
+  </view>
+  <!--最新文章列表-->
+<!--文章一-->
+<view class="hor "  bindtap='gotonews1'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit6.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15' >
+ViewPager的简单介绍</view>
+<view class='font12'>ViewPager就是一个简单的页面切换组件，我们可以往里面填充多个View</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章二-->
+<view class="hor "  bindtap='gotonews2'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit12.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>PagerAdapter的使用</view>
+<view class='font12'>我们先来介绍最普通的PagerAdapter，如果想使用这个PagerAdapter需要重写下面的四个方法</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章三-->
+<view class="hor "  bindtap='gotonews3'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit14.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>ViewPager实现TabHost的效果</view>
+<view class='font12'>实际开发中我们可能需要自行定制这个标题栏， 下面我们就来写个简单的例子来实现TabHost的效果</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章四-->
+<view class="hor "  bindtap='gotonews4'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit15.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>ViewPager结合Fragment示例</view>
+<view class='font12'>讲解Fragment的时候我们就讲解了一个使用示例</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>

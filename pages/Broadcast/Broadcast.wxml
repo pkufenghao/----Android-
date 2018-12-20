@@ -1,0 +1,58 @@
+<view class='hor'>
+  <view class="userinfo ">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <image  class="vip-icon" src="../../images/vip.png" ></image>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+      </view> 
+    
+  </view>
+  <!--最新文章列表-->
+<!--文章一-->
+<view class="hor "  bindtap='gotonews1'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit6.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15' >
+BroadcastReceiver是什么</view>
+<view class='font12'>Broadcast直译广播，我们举个形象的例子来帮我理解下BroadcastReceiver</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章二-->
+<view class="hor "  bindtap='gotonews2'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit12.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>两种广播类型</view>
+<view class='font12'>两种广播类型:标准广播和有序广播</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章三-->
+<view class="hor "  bindtap='gotonews3'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit14.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>两种注册广播的方式</view>
+<view class='font12'>注册的方法又分为以下两种：动态与静态</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章四-->
+<view class="hor "  bindtap='gotonews4'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit15.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>发送广播</view>
+<view class='font12'>发送广播前，要先定义一个接收器，先确定目标，然后再告白</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>

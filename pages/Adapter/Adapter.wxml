@@ -1,0 +1,58 @@
+<view class='hor'>
+  <view class="userinfo ">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <image  class="vip-icon" src="../../images/vip.png" ></image>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+      </view> 
+    
+  </view>
+  <!--最新文章列表-->
+<!--文章一-->
+<view class="hor "  bindtap='gotonews1'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit6.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15' >
+MVC模式的简单理解</view>
+<view class='font12'>在开始学习Adapter之前我们要来了解下这个MVC模式概念</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章二-->
+<view class="hor "  bindtap='gotonews2'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit12.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>Adapter概念解析</view>
+<view class='font12'>首先我们来看看他的继承结构图</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章三-->
+<view class="hor "  bindtap='gotonews3'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit14.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>ArrayAdapter使用示例</view>
+<view class='font12'>除了通过数组外，我们还可以写到一个数组资源文件中</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章四-->
+<view class="hor "  bindtap='gotonews4'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit15.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>SimpleAdapter使用示例</view>
+<view class='font12'>SimpleAdapter：简单的Adapter，看似简单，功能强大</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>

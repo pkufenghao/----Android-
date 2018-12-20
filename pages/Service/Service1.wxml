@@ -1,0 +1,7 @@
+<view class='news'>
+<view class='hor'>
+<image class='news-icon' src='../../images/launcher.png'></image>
+<view class='title'>Service的生命周期</view>
+</view> 
+<image class='pic' src='../../images/11165797.jpg'></image>
+</view>

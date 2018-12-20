@@ -1,0 +1,62 @@
+<view class='hor'>
+  <view class="userinfo ">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <image  class="vip-icon" src="../../images/vip.png" ></image>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+      </view> 
+      <view class='list-item'>
+      <image  class="more-icon" src="../../images/more.png" ></image> 
+      </view>     
+  </view>
+  <!--分割线-->
+<view class='row-line'></view>
+  <!--关注公众号-->
+<view class="hor margin_top50"> 
+<view class=" width76 margin_top10"> 
+<view class='font18 margin_left30'>关注公众号</view>
+<view class='font15 margin_left30'>欢迎关注公众号：每周一节技术课</view>
+</view> 
+<view class="list-item">
+<image class="list-icon" src='../../images/stickypost.png'></image>
+</view>
+</view>
+  <!--分割线-->
+<view class='row-line'></view>
+  <!--评分-->
+<view class="hor "> 
+<view class=" width76 margin_top10"> 
+<view class='font18 margin_left30'>评分</view>
+<view class='font15 margin_left30'>欢迎捧场，五星好评</view>
+</view> 
+<view class="list-item">
+<image class="list-icon" src='../../images/like_reply_check.png'></image>
+</view>
+</view>
+  <!--分割线-->
+<view class='row-line'></view>
+  <!--关于-->
+<view class="hor "> 
+<view class=" width76 margin_top10"> 
+<view class='font18 margin_top10 margin_left30'>关于</view>
+</view> 
+<view class="list-item">
+<image class="list-icon" src='../../images/sun35.png'></image>
+</view>
+</view>
+  <!--分割线-->
+<view class='row-line'></view>
+ <!--意见反馈-->
+<view class="hor "> 
+<view class=" width76 margin_top10"> 
+<view class='font18 margin_top10 margin_left30'>意见反馈</view>
+</view> 
+<view class="list-item">
+<image class="list-icon" src='../../images/bbs.png'></image>
+</view>
+</view>
+  <!--分割线-->
+<view class='row-line'></view>
+<view class="hor">
+<image class="end-pic" src='../../images/ship.png'></image>
+</view>
+<view class='copyright'>©copyright pkufenghao.top</view>

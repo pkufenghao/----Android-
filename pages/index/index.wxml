@@ -1,0 +1,114 @@
+<!--index.wxml-->
+<view >
+  <view class="userinfo ">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <image  class="vip-icon" src="../../images/vip.png" ></image>
+      <view class="userinfo-nickname">欢迎</view>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+      
+  </view>
+  <!--第一排-->
+<view class="hor black"> 
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit20.png' bindtap='gotoActivity'></image>
+<view class='font-normal'>Activity</view>
+</view> 
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit19.png' bindtap='gotoService'></image>
+<view class='font-normal'>Service</view>
+</view> 
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit17.png' bindtap='gotoBroadcast'></image>
+<view class='font-normal'>Broadcast</view>
+</view>  
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit14.png' bindtap='gotoContent'></image>
+<view class='font-normal'>Content</view>
+</view>  
+</view> 
+  <!--第二排-->
+<view class="hor black"> 
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit15.png' bindtap='gotoIntent'></image>
+<view class='font-normal'>Intent</view>
+</view> 
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit7.png' bindtap='gotoListView'></image>
+<view class='font-normal'>ListView</view>
+</view> 
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit8.png' bindtap='gotoViewPager'></image>
+<view class='font-normal'>ViewPager</view>
+</view>  
+<view class="click-item">
+<image class="click-icon" src='../../images/icon_fruit9.png' bindtap='gotoAdapter'></image>
+<view class='font-normal'>Adapter</view>
+</view>  
+</view> 
+<!--分割线-->
+<view class='row-line'></view>
+<!--中间滚动图片-->
+<swiper indicator-dots='true' autoplay='true' interval='3000'>
+<swiper-item><image class='slide-pic' src='../../images/ads1.jpg' bindtap='gotoads1'></image></swiper-item>
+<swiper-item><image class='slide-pic' src='../../images/ads2.jpg' bindtap='gotoads2'></image></swiper-item>
+<swiper-item><image class='slide-pic' src='../../images/ads3.jpg' bindtap='gotoads3'></image></swiper-item>
+</swiper>
+<!--最新文章-->
+<view class="hor">
+<view class='news'>最新文章</view>
+<image class='small-icon' src='../../images/remen.png'></image>
+</view>
+</view>
+<!--最新文章列表-->
+<!--文章一-->
+<view class="hor "  bindtap='gotonews1'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit6.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15' >
+Android 8.0中的一些更改</view>
+<view class='font12'>2018 年 11 月 1 日起，所有 Google Play 的现有应用更新同样必须针对 Android 8.0。</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章二-->
+<view class="hor "  bindtap='gotonews2'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit12.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>Android与汽车</view>
+<view class='font12'>大部分人可能没想过Android系统和汽车有什么关系。但实际上，Android系统在四年前就在布局汽车这个平台。</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章三-->
+<view class="hor "  bindtap='gotonews3'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit14.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>Android版本列表</view>
+<view class='font12'>Android 的开发是围绕着版本系列进行的，这些版本使用美味的点心名字作为代号。</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章四-->
+<view class="hor "  bindtap='gotonews4'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit15.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>Android 9 带着 AI 来了，为什么我们还停留在 6？</view>
+<view class='font12'>历时一年，今天上午，Google 终于推出了 Android 9.0 正式版系统。</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<view class='copyright'>©copyright pkufenghao.top</view>
+
+

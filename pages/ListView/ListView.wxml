@@ -1,0 +1,59 @@
+
+<view class='hor'>
+  <view class="userinfo ">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <image  class="vip-icon" src="../../images/vip.png" ></image>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+      </view> 
+    
+  </view>
+  <!--最新文章列表-->
+<!--文章一-->
+<view class="hor "  bindtap='gotonews1'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit6.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15' >
+ListView的最简单例子</view>
+<view class='font12'>一个很简单的ListView，自己写下Item，然后加载点数据</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章二-->
+<view class="hor "  bindtap='gotonews2'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit12.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>表头表尾分割线的设置</view>
+<view class='font12'>listview作为一个列表控件，他和普通的列表一样，可以自己设置表头与表尾</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章三-->
+<view class="hor "  bindtap='gotonews3'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit14.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>列表从底部开始显示</view>
+<view class='font12'>如果你想让列表显示你列表的最下面的话，那么你可以使用这个属性</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章四-->
+<view class="hor "  bindtap='gotonews4'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit15.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>隐藏滑动条</view>
+<view class='font12'>我们可以通过设置：android:scrollbars="none" 或者 setVerticalScrollBarEnabled(true); 解决这个问题！</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>

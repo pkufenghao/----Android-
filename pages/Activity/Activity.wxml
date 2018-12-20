@@ -1,0 +1,93 @@
+<view class='hor'>
+  <view class="userinfo ">
+      <image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <image  class="vip-icon" src="../../images/vip.png" ></image>
+      <view class="userinfo-nickname">{{userInfo.nickName}}</view>
+      </view>    
+  </view>
+  <!--最新文章列表-->
+<!--文章一-->
+<view class="hor "  bindtap='gotoActivity1'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit6.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15' >
+Activity的概念</view>
+<view class='font12'>Activity用于显示用户界面，用户通过Activity交互完成相关操作</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章二-->
+<view class="hor "  bindtap='gotoActivity2'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit12.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>Activity的生命周期图</view>
+<view class='font12'>Activity的生命周期以及回调方法如图</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章三-->
+<view class="hor "  bindtap='gotoActivity3'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit14.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>Activity的创建流程</view>
+<view class='font12'>自定义Activity类或子类，重写onCreate（）方法。</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章四-->
+<view class="hor "  bindtap='gotoActivity4'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit15.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>启动一个Activity的几种方式</view>
+<view class='font12'>在Android中我们可以通过下面两种方式来启动一个新的Activity，分为显示启动和隐式启动。</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章五-->
+<view class="hor "  bindtap='gotoActivity2'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit12.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>Activity间的数据传递</view>
+<view class='font12'>可以使用Intent在Activity间的数据传递</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章六-->
+<view class="hor "  bindtap='gotoActivity3'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit14.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>为Activity设置过场动画</view>
+<view class='font12'>所谓的过场动画就是切换到另外的Activity时加上一些切换动画，比如淡入淡出，放大缩小，左右互推等</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>
+<!--文章七-->
+<view class="hor "  bindtap='gotoActivity4'> 
+<view class="list-item">
+<image class="list-icon" src='../../images/icon_fruit15.png'></image>
+</view> 
+<view class=" width76 margin_top20"> 
+<view class='font15'>随时关闭所有Activity</view>
+<view class='font12'>有时我们可能会打开了很多个Activity，突然来个这样的需求，在某个页面可以关掉 所有的Activity并退出程序</view>
+</view> 
+</view>
+<!--分割线-->
+<view class='row-line'></view>

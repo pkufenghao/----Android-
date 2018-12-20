@@ -1,0 +1,7 @@
+<view class='news'>
+<view class='hor'>
+<image class='news-icon' src='../../images/launcher.png'></image>
+<view class='title'>Activity的概念</view>
+</view> 
+<image class='pic' src='../../images/Activity_what.png'></image>
+</view>

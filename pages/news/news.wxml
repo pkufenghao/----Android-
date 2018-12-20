@@ -1,0 +1,8 @@
+<view class='news'>
+<view class='hor'>
+<image class='news-icon' src='../../images/news.png'></image>
+<view class='title'>{{title}}</view>
+</view> 
+  <view class='data'>{{data}}</view>
+  <view class='news-url'>来源：{{news_url}}</view>
+</view>

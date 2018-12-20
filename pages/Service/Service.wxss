@@ -1,0 +1,111 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+   margin-top: 5px;
+   margin-left: 10px;
+}
+
+.userinfo-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  margin: 5rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color:#aaa;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+.hor{display: flex;} 
+.vip-icon{
+  margin-top: 12px;
+  width: 40px;
+  height: 20px;
+  margin-left: 3px;
+}
+.black{
+color:black;
+}
+/**点击图标进入子页面**/ 
+.click-item {
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+  width: 25%;
+  }
+  /**字体设置**/ 
+.font-normal{
+    font-size: 15px;
+}
+.font15{
+font-size: 15px;
+}
+.font12{
+font-size: 12px;
+}
+ /**宽度设置**/ 
+  .width76{
+  width: 72%;
+}
+.margin_top20{
+  margin-top:10px;
+}
+
+  /**图标设置**/ 
+  .click-icon{
+   margin-top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+  /**线设置**/ 
+.row-line {
+ margin-top: 5px;
+  width: 90%;
+  height: 1px;
+  margin-left: 5%;
+  background:#aaa;
+}
+ /**中间滚动图片设置**/ 
+ .slide-pic{
+ margin-top: 10px;
+  width: 94%;
+  height: 100px;
+  margin-left: 3%;
+ }
+  /**小图片设置**/ 
+  .small-icon{
+  margin-top: 17px;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  }
+    /**最新文章设置**/ 
+  .news{
+    margin-left: 20px;
+     margin-top: 15px;
+     font-size: 18px;
+  }
+  /**列表设置**/
+  .list-item {
+  margin-top: 2px;
+  text-align: center;
+  width: 25%;
+  }
+/**列表图标设置**/
+.list-icon{
+  margin-top: 10px;
+  margin-bottom: 1px;
+  width: 110rpx;
+  height: 110rpx;
+}
+.copyright{
+  text-align: center;
+   margin-top: 30px;
+   font-size: 12px;
+   color: #aaa
+}
+
